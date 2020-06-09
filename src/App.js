@@ -9,6 +9,7 @@ function App() {
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
          Coming Soon ... 2020
+         ticket #1
         </p>
       </header>
     </div>
