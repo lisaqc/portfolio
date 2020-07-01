@@ -5,9 +5,9 @@ import './navbar.styles.css';
 const Navbar = () => {
 
     return (
-    <navbar className='navbar'> 
-    About | Home | Resume
-    </navbar>
+        <navbar className='navbar'> 
+            Home | About | Resume
+        </navbar>
     );
 };
 

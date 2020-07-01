@@ -13,6 +13,8 @@ class App extends React.Component {
       <div>
         <BrowserRouter> 
           <Switch>
+            <Route exact path="/resume" render={() => {window.location.href="/LisaChen_Resume.pdf"}} />
+            <Route exact path="/resume/" render={() => {window.location.href="/LisaChen_Resume.pdf"}} />
             <Route path="/about" component={About} />
             <Route path="/" component={Home} />
           </Switch>
