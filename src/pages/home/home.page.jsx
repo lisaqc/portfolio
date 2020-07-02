@@ -1,7 +1,6 @@
 
 import React from 'react';
 import Typical from 'react-typical';
-import 'font-awesome/css/font-awesome.css';
 import './home.styles.css';
 import Navbar from '../../components/navbar/navbar.component'
 import Footer from '../../components/footer/footer.component';
