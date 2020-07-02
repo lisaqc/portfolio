@@ -6,7 +6,11 @@ const Navbar = () => {
 
     return (
         <navbar className='navbar'> 
-            Home | About | Resume
+            <ul class="menu__list">
+                <li class="menu__list-item"><a class="menu__link" href="/home">Home</a></li>
+                <li class="menu__list-item"><a class="menu__link" href="/about">About</a></li>
+                <li class="menu__list-item"><a class="menu__link" href="/resume">Resume</a></li>
+            </ul>
         </navbar>
     );
 };

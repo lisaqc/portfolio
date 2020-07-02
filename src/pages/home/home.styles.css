@@ -1,6 +1,44 @@
+
 .home-page {
     font-family: Staatliches;
     background-color: #a2aab0;
     height: 100vh;
     width: 100vw;
+}
+
+.info {
+    justify-content: center;
+    margin-top: 240px;
+}
+
+.name {
+    color: white;
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    line-height: 250px;
+    text-align: center;
+}
+.title {
+    color: #4C586F;
+    font-family: Thasadith;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+#cursor {
+  border-left: .1em solid #4C586F;
+  animation: blink .7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
