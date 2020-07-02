@@ -24,7 +24,7 @@ const Home = () => {
                   1000,
                   'Content Creator 📸',
                   1000,
-                  'Cooking Enthusaist 👩‍🍳',
+                  'Cooking Enthusaist 🍰',
                   1000
                 ]}
               />
