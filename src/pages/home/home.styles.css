@@ -6,7 +6,7 @@
     width: 100vw;
 }
 
-.info {
+.home-info {
     justify-content: center;
     margin-top: 240px;
 }
@@ -20,6 +20,7 @@
     line-height: 250px;
     text-align: center;
 }
+
 .title {
     color: #4C586F;
     font-family: Thasadith;
@@ -31,14 +32,3 @@
     font-weight: 700;
 }
 
-
-#cursor {
-  border-left: .1em solid #4C586F;
-  animation: blink .7s steps(1) infinite;
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}

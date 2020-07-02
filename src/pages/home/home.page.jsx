@@ -13,7 +13,7 @@ const Home = () => {
       <header className="home-header">
           <Navbar/>
         <div className = 'header'>
-          <div className = 'info'>
+          <div className = 'home-info'>
             <div className = 'name'>HELLO, I'M LISA</div>
             <div className = 'title'>I am a {''}
               <Typical 
@@ -32,7 +32,7 @@ const Home = () => {
           </div>
           </div>
       </header>
-      <Footer/>
+    <Footer/>
       </div>
     );
 };

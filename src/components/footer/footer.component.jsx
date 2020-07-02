@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
     <div className='footer'>
-        <span className = 'info'> If you are interested in collaborating or want to share experiences and opportunities, please do not hesitate to reach out!</span>
+        <span className = 'footer-info'> If you are interested in collaborating or want to share experiences and opportunities, please do not hesitate to reach out!</span>
         <hr/>
         <ul className="Social-Icons">
             <li>
