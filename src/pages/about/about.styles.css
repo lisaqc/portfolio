@@ -38,3 +38,23 @@
     margin-bottom: 20px;
 }
 
+
+@media only screen and (max-width: 815px) {
+
+    .infos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headshot {
+        display: block;
+        width: 90vw;
+        min-height: 30vh;
+        max-width: 90vw;
+        margin: 24px;
+    }
+
+    .about-info {
+        margin: 24px;
+    }
+}

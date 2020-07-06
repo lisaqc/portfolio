@@ -69,3 +69,11 @@ ul.Social-Icons {
     font-family: Roboto;
     color: #4C586F
   }
+
+  @media only screen and (max-width: 815px) {
+    span.footer-info {
+      margin: 0 24px;
+      text-align: center;
+      font-size: 14px;
+  }
+}

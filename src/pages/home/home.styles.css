@@ -34,3 +34,19 @@
     font-weight: 700;
 }
 
+@media only screen and (max-width: 815px) {
+
+    .home-header {
+        height: 60vh;
+    }
+
+    .name {
+        line-height: 100px;
+        font-size: 100px;
+        margin: 8px 24px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+}

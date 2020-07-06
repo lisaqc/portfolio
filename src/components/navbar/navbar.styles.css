@@ -12,26 +12,11 @@
     font-weight: 700;
 }
 
-.container {
-    width: 1000px;
-    margin: 20px auto;
-}
-
-.center {
-    display: flex;
-    justify-content: center;
-}
-
-.hide {
-    display: none;
-}
-
 .menu__list {
     list-style-type: none;
     padding: 0;
     height: 100%;
     margin: 0;
-    margin-right: 40px;
 }
 
 .menu__list-item {
