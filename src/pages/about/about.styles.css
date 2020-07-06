@@ -48,10 +48,9 @@
 
     .headshot {
         display: block;
-        width: 90vw;
-        min-height: 30vh;
-        max-width: 90vw;
-        margin: 24px;
+        max-width: 85vw;
+        height: auto;
+        margin: auto;
     }
 
     .about-info {
