@@ -9,8 +9,8 @@ import Footer from '../../components/footer/footer.component';
 const Home = () => {
   return (
     <div className="home-page">
+      <Navbar/>
       <header className="home-header">
-          <Navbar/>
         <div className = 'header'>
           <div className = 'home-info'>
             <div className = 'name'>HELLO, I'M LISA</div>
