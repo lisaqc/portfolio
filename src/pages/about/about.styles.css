@@ -12,12 +12,12 @@
 
 .headshot {
     height: 65vh;
-    margin: 12px 100px;
+    margin: 12px 100px 0 150px;
     border-radius: 10px;
 }
 
 .about-info {
-    margin: 24px 100px 100px 0;
+    margin: 8px 150px 100px 0;
 }
 
 .intro {
@@ -25,14 +25,14 @@
     font-weight: normal;
     font-size: 48px;
     line-height: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 .paragraph {
     font-family: Thasadith;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
     font-weight: 700;
     margin-bottom: 20px;
