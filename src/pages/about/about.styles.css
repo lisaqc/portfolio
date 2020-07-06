@@ -1,8 +1,8 @@
 .about-page {
     font-family: Staatliches;
     background-color: #EBECED;    
-    height: 100vh;
     width: 100vw;
+    min-height: 100vh;
     color: #3E3E3B;
 }
 
@@ -12,12 +12,12 @@
 
 .headshot {
     height: 65vh;
-    margin: 12px 100px 0 150px;
+    margin: 12px 50px 0 225px;
     border-radius: 10px;
 }
 
 .about-info {
-    margin: 8px 150px 100px 0;
+    margin: 8px 225px 0 0;
 }
 
 .intro {
