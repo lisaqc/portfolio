@@ -2,13 +2,13 @@
 .home-page {
     font-family: Staatliches;
     background-color: #a2aab0;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
 }
 
 .home-header {
     display: flex;
-    height: 80vh;
+    height: 70vh;
     justify-content: center;
     align-items: center;
 }
