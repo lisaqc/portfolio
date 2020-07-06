@@ -10,8 +10,7 @@ const Home = () => {
   return (
     <div className="home-page">
       <Navbar/>
-      <header className="home-header">
-        <div className = 'header'>
+        <div className = 'home-header'>
           <div className = 'home-info'>
             <div className = 'name'>HELLO, I'M LISA</div>
             <div className = 'title'>I am a {''}
@@ -29,9 +28,8 @@ const Home = () => {
               />
             </div>
           </div>
-          </div>
-      </header>
-    <Footer/>
+        </div>
+      <Footer/>
       </div>
     );
 };
