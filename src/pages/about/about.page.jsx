@@ -3,13 +3,18 @@ import Navbar from '../../components/navbar/navbar.component'
 import Footer from '../../components/footer/footer.component';
 import './about.styles.css';
 import image from '../../assets/image.png';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 const About = () => {
     return (
     <div className='about-page'>
         <Navbar/>
         <div className = 'infos'>
-            <img src={image} className="headshot" alt="headshot" />
+            <ReactCSSTransitionGroup
+                transitionName="example" transitionAppear={true}
+                transitionAppearTimeout={700}>
+                <img src={image} className="headshot" alt="headshot" />
+            </ReactCSSTransitionGroup>
             <div className = 'about-info'>
                 <div className = 'intro'>HELLO!</div>
                 <div className = 'paragraghs'>
