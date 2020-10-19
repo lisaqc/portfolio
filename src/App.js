@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "react-toggle/style.css"
 
 import Home from "./pages/home/home.page";
 import About from "./pages/about/about.page";
