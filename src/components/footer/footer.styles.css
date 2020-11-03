@@ -3,77 +3,21 @@
     width: 100%;
 }
 
-span.footer-info {
-    display: flex;
-    justify-content: center;
-    font-family: Thasadith;
-    font-weight: 700;
-    font-size: 18px;
-    color: #4C586F
+footer {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  margin-right: 40px
 }
 
-hr {
-    width: 30%;
-    color:black; 
+p {
+  color: black;
+  font-family: Be Vietnam;
 }
 
-ul.Social-Icons {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .icon {
-    font-size: 24px;
-    color: #4C586F;
-    border-radius: 50%;
-    padding: 8px;
-    margin: 8px 8px;
-    transition: all .2s ease-in-out;
-  }
-  
-  :hover.icon {
-    cursor: pointer;
-    transform: scale(1.2);
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-    display: inline-block;
-    position:absolute;
-    bottom: -50%;
-    left:50%;
-    transform:translateX(-50%);
-    text-align: center;
-  }
-
-  .tooltiptext {
-    color: white;
-    background-color: #4C586F;;
-    visibility: hidden;
-    font-family: Roboto;
-    position: absolute;
-    font-size: 12px;
-    padding: 4px 8px;
-    border-radius: 10%;
-  }
-
+@media only screen and (max-width: 815px) {
   footer {
-    display: flex;
     justify-content: center;
-    font-size: 14px;
-    padding-bottom: 24px;
-    font-family: Roboto;
-    color: #4C586F
-  }
-
-  @media only screen and (max-width: 815px) {
-    span.footer-info {
-      margin: 0 24px;
-      text-align: center;
-      font-size: 14px;
+    margin-right: 0;
   }
 }

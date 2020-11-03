@@ -19,7 +19,7 @@ const Summary = () => {
                     <div className = 'summary-text medium'>I am a&nbsp;
                         <Typical 
                             loop={Infinity}
-                            wrapper='b'
+                            wrapper='i'
                             steps={[
                             'Product Manager 💻', 
                             1000,
