@@ -1,9 +1,5 @@
-.about-page {
-    font-family: Staatliches;
-    background-color: #EBECED;    
-    width: 100vw;
-    min-height: 100vh;
-    color: #3E3E3B;
+.landing-page {
+    background-color: white;    
 }
 
 .infos {
