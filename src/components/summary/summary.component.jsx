@@ -3,6 +3,8 @@ import React from 'react';
 import './summary.styles.scss';
 import Typical from 'react-typical';
 import image from '../../assets/image.png';
+import { TiMessages } from 'react-icons/ti';
+import Button from 'react-bootstrap/Button';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 const Summary = () => {
@@ -45,6 +47,12 @@ const Summary = () => {
                     </div>
                 </div>
             </div>
+            <Button variant="light" className = 'summary-connect'  href="mailto:lisachencal@gmail.com" rel="noopener noreferrer" target="_blank">
+                <TiMessages className = 'summary-icon'/>
+                <div className = 'summary-connect-text'>
+                    Ideas or suggestions? Lets Connect!
+                </div>
+            </Button>
         </div>
     );
 };
