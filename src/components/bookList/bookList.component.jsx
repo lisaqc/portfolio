@@ -16,7 +16,6 @@ const BookList = () => {
         {title: "The Subtle Art of Not Giving a F**k", author: "Mark Manson"},
         {title: "Digital Minimalism", author: "Cal Newport"},
     ]
- 
     return (
     <div className='book-list-component'>
     <div className='book-list-title'> Recent Reads...</div>
