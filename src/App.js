@@ -4,9 +4,10 @@ import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "react-toggle/style.css"
 
-// import Home from "./pages/home/home.page";
 import Landing from "./pages/landing/landing.page";
-// import Project from "./pages/project/project.component";
+import About from "./pages/about/about.page";
+import Projects from "./pages/projects/projects.page";
+import Books from "./pages/books/books.page";
 
 class App extends React.Component {
 
@@ -17,7 +18,9 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/resume" render={() => {window.location.href="/LisaChen_Resume.pdf"}} />
             <Route exact path="/resume/" render={() => {window.location.href="/LisaChen_Resume.pdf"}} />
-            <Route path="/about" component={Landing} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/books" component={Books} />
             <Route path="/" component={Landing} />
           </Switch>
         </BrowserRouter>

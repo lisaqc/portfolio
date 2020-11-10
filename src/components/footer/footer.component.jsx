@@ -1,7 +1,7 @@
 import React from 'react';
-import './footer.styles.css';
+import './footer.styles.scss';
 
-const Footer = () => {
+const Footer = () => {  
     const year = new Date().getFullYear();
 
     return (

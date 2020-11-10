@@ -1,16 +1,16 @@
 import React from 'react';
 import Navbar from '../../components/navbar/navbar.component'
-import Summary from '../../components/summary/summary.component'
 import Footer from '../../components/footer/footer.component';
 
-const Landing = () => {
+const About = () => {
     return (
-    <div className='landing-page'>
+    <div className='about-page'>
         <Navbar/>
-        <Summary/>
+        {/* <AboutMe/> */}
+        {/* <GettingMe/> */}
         <Footer/>
     </div>
     );  
 };
 
-export default Landing;
+export default About;

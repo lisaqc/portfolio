@@ -1,5 +1,5 @@
 import React from 'react';
-import './navbar.styles.css';
+import './navbar.styles.scss';
 import  Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai';
@@ -39,7 +39,7 @@ const CustomNavbar = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto menu-items">
-                    <Nav.Link className="menu-item" href="/about">About Me</Nav.Link>
+                    <Nav.Link className="menu-item" href="/about">About</Nav.Link>
                     <Nav.Link className="menu-item" href="/projects">Projects</Nav.Link>
                     <Nav.Link className="menu-item" href="/resume">Resume</Nav.Link>
                 </Nav>
@@ -49,7 +49,7 @@ const CustomNavbar = () => {
                     <Nav.Link className="menu-toggle">
                             <span className = "dark-mode">Dark mode</span>
                             <Toggle
-                                defaultChecked={darkMode ? true : false}
+                                defaultChecked={darkMode}
                                 icons={false}
                                 onChange={() => setDarkMode(prevMode => !prevMode)} />
                     </Nav.Link>
