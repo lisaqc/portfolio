@@ -11,9 +11,12 @@ const Projects = () => {
       <Navbar/>
         <div className = 'projects-header'>
           <div className = 'projects-info'>
+            <div className = 'coming-soon'>
+              Coming Soon
+            </div>
           </div>
         </div>
-      <Footer/>
+      <Footer showButton = {true}/>
       </div>
     );
 };

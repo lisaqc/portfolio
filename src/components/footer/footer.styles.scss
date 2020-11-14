@@ -7,12 +7,38 @@ footer {
   display: flex;
   justify-content: flex-end;
   font-size: 14px;
-  margin-right: 40px
+  flex-direction: column;
 }
 
 p {
   color: black;
   font-family: Be Vietnam;
+  margin-right: 40px;
+  align-self: flex-end;
+}
+
+.footer-connect {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 3em;
+  margin: auto;
+  align-items: center;
+  border: none;
+  box-shadow: none;
+  &:hover {
+      background: lighten(#8490FA, 15%);
+      transition: transform ease-in 0.2s;
+      transform: scale(1.02)
+  }
+  &:focus {
+      box-shadow: none;
+  }
+}
+
+
+.footer-icon {
+  margin-right: 8px;
 }
 
 @media only screen and (max-width: 815px) {
@@ -20,4 +46,10 @@ p {
     justify-content: center;
     margin-right: 0;
   }
+
+  .footer-connect {
+    font-size: 14px;
+    width: 300px;
+    margin-top: 50px;
+}
 }

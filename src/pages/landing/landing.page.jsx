@@ -9,7 +9,7 @@ const Landing = () => {
     <div className='landing-page'>
         <Navbar/>
         <Summary/>
-        <Footer/>
+        <Footer showButton = {true} />
     </div>
     );
 };
