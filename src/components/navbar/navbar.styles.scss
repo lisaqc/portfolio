@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .navbar{
     display: flex;
     /* justify-content: center; */
@@ -8,7 +10,7 @@
     left: 0px;
     top: 30px;
     padding: 24px 0;
-    background: #FFFFFF;
+    background: $light-background;
     box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.15);
 }
 
@@ -32,7 +34,7 @@
 }
 
 .menu-item {
-    color: #8490FA !important;
+    color: $light-violet-accent !important;
 }
 
 .menu-item:hover{
@@ -49,7 +51,7 @@
 
 }
 .dark-mode {
-    color: black !important;
+    color: $light-primary !important;
     font-size: 14px;
     margin-right: 8px;
     font-family: "Be Vietnam";
@@ -68,7 +70,7 @@
  
     .navbar-toggler {
         justify-self: flex-end;
-        border-color: white !important;
+        border-color: $light-background !important;
         margin-right: 24px;
     }
 
@@ -83,7 +85,7 @@
     }
 
     .menu-item {
-        color: black !important;
+        color: $light-primary !important;
         align-self: center;
     }
 

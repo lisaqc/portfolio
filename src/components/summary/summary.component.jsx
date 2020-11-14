@@ -41,7 +41,7 @@ const Summary = () => {
                         I’m currently based in <b>Toronto, Canada.</b>                  
                     </div>
                     <div className = 'summary-paragraph'>
-                        Currently, I worked at American Express as a <b>Product Marketing Manager</b> focused on the Early Engagement portion ofthe customer journey. 
+                        Currently, I worked at American Express as a <b>Product Marketing Manager</b> focused on the Early Engagement portion of the customer journey. 
                     </div>
                 </div>
             </div>

@@ -30,3 +30,36 @@
     justify-content: center;
     display: flex;
 }
+
+@media only screen and (max-width: 815px) {
+
+    .getting-me-component{
+        display: flex;
+        flex-direction: column;
+        margin: 48px 24px 0 24px;
+    }
+
+    .about-me-item-pic {
+        width: 80vw;
+        height: 100px;
+    }
+
+    .getting-me-list {
+        padding: 18px 0;
+    }
+
+    .getting-me-hobbies {
+        display: flex;
+        flex-direction: column;
+        font: bold 16px Be Vietnam;
+        margin: 0 24px;
+        margin-bottom: 0;
+    }
+    
+    .getting-me-first {
+        min-height: 3em;
+        justify-content: flex-start;
+        display: flex;
+    }
+
+}

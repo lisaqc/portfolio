@@ -1,19 +1,23 @@
+@import '../../App.scss';
+
 .about-list-item-component{
     display: flex;
     flex-direction: row;
     margin: 0 24px;
     margin-bottom: 56px;
+    min-height: 220px;
 }
-.about-list-image {
+.about-list-pic {
     min-height: 100px;
     min-width: 300px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.about-list-item-image {
-    height: 90px;
-    width: 120px; 
+.about-list-item-pic {
+    height: 100px;
+    width: 160px; 
 }
 
 .about-list-title {
@@ -30,4 +34,44 @@
 .about-list-body {
     font: 14px Be Vietnam;
     line-height: 1.75em;
+}
+
+.about-connect {
+    margin-top: 30px;
+    border-radius: 45px;
+    font: bold 14px Be Vietnam;
+    padding: 12px 24px;
+    border: none;
+    box-shadow: none;
+    color: $light-violet-accent;
+    border: 1px solid $light-violet-accent;
+    background: none;
+    &:hover {
+        background: lighten($light-violet-accent, 15%);
+        color: $light-background;
+        border: $light-background;
+    }
+    &:focus {
+        box-shadow: none;
+        outline: none !important;
+        outline-offset: none !important;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+
+    .about-me-component{
+        display: flex;
+        flex-direction: column;
+        margin: 200px 24px 0 24px;
+    }
+
+    .about-list-pic {
+        display: none;
+    }
+
+    .about-connect {
+        justify-self: center;
+    }
+
 }

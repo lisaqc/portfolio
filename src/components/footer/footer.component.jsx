@@ -10,7 +10,7 @@ const Footer = (props) => {
     <div className='footer'>
         <footer> 
           {props.showButton &&
-            <Button variant="light" className = 'footer-connect'  href="mailto:lisachencal@gmail.com" rel="noopener noreferrer" target="_blank">
+            <Button variant="outline-light" className = 'footer-connect'  href="mailto:lisachencal@gmail.com" rel="noopener noreferrer" target="_blank">
                 <TiMessages className = 'footer-icon'/>
                 <div className = 'footer-connect-text'>
                   Ideas or suggestions? Lets Connect!

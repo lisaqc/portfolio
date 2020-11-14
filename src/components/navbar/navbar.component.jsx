@@ -46,13 +46,13 @@ const CustomNavbar = () => {
                 <Nav className="mr-auto menu-icon-items">
                     <Nav.Link className="menu-item" href="http://linkedin.com/in/lisaqc" rel="noopener noreferrer" target="_blank"><AiOutlineLinkedin className = 'menu-icon'/></Nav.Link>
                     <Nav.Link className="menu-item" href="mailto:lisachencal@gmail.com" rel="noopener noreferrer" target="_blank"><AiOutlineMail className = 'menu-icon'/></Nav.Link>
-                    <Nav.Link className="menu-toggle">
+                    {/* <Nav.Link className="menu-toggle">
                             <span className = "dark-mode">Dark mode</span>
                             <Toggle
                                 defaultChecked={darkMode}
                                 icons={false}
                                 onChange={() => setDarkMode(prevMode => !prevMode)} />
-                    </Nav.Link>
+                    </Nav.Link> */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

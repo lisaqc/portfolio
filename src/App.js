@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import "./App.css";
+import "./App.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "react-toggle/style.css"
 

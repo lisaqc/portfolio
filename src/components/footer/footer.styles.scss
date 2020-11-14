@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .footer {
     margin-top: 48px;
     width: 100%;
@@ -11,7 +13,7 @@ footer {
 }
 
 p {
-  color: black;
+  color: $light-primary;
   font-family: Be Vietnam;
   margin-right: 40px;
   align-self: flex-end;
@@ -26,8 +28,13 @@ p {
   align-items: center;
   border: none;
   box-shadow: none;
+  color: $light-violet-accent;
+  border: 1px solid $light-violet-accent;
+  background: none;
+  border-radius: 10px;
   &:hover {
-      background: lighten(#8490FA, 15%);
+      background: lighten($light-violet-accent, 15%);
+      color: $light-background;
       transition: transform ease-in 0.2s;
       transform: scale(1.02)
   }
@@ -55,5 +62,6 @@ p {
   p {
     align-self: center;
     margin-right: 0;
+    margin-top: 24px;
   }
 }

@@ -6,8 +6,8 @@ import Button from 'react-bootstrap/Button';
 const AboutListComponent = (props) => {
     return (
         <div className = 'about-list-item-component'>
-            <div className = 'about-list-image'>
-                <img src={props.image} className="about-list-item-image" alt="about-list-item-image" />
+            <div className = 'about-list-pic'>
+                <img src={props.image} className="about-list-item-pic" alt="about-list-item-pic" />
             </div>
             <div className = 'about-list-description'>
             <div className = 'about-list-title'>{props.title}</div>
@@ -22,7 +22,7 @@ const AboutListComponent = (props) => {
                     <div className = 'about-list-paragraph'>{props.paragraphTwo}</div>
                 </div>
                 {props.action &&
-                    <Button variant="light" className = 'about-connect' href={props.actionLink} rel="noopener noreferrer" target="_blank">
+                    <Button variant="outline-light" className = 'about-connect' href={props.actionLink} rel={props.rel} target={props.target}>
                         <div className = 'about-list-action'>
                             {props.action}
                         </div>

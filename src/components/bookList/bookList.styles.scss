@@ -23,3 +23,17 @@
 .book-list-item {
     line-height: 36px;
 }
+
+@media only screen and (max-width: 815px) {
+
+    .book-list-component{
+        margin: 200px 24px 0 24px;
+    }
+
+    .book-list-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

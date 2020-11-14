@@ -6,8 +6,8 @@ import Work from '../../assets/Work.svg';
 const AboutMe = (props) => {
     return (
         <div className = 'about-me-component'>
-            <div className = 'about-me-image'>
-                <img src={Work} className="about-me-image" alt="about-me-image" />
+            <div className = 'about-me-pic'>
+                <img src={Work} className="about-me-item-pic" alt="about-me-item-pic" />
             </div>
             <div className = 'about-me-description'>
                 <div className = 'about-me-body'>
