@@ -3,35 +3,35 @@ import './navbar.styles.scss';
 import  Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai';
-import Toggle from 'react-toggle'
+// import Toggle from 'react-toggle'
 
 const CustomNavbar = () => {
 
-    const [darkMode, setDarkMode] = React.useState(getInitialMode())  
-    React.useEffect(() => {
-      localStorage.setItem('dark', JSON.stringify(darkMode));
-    }, [darkMode]);
+    // const [darkMode, setDarkMode] = React.useState(getInitialMode())  
+    // React.useEffect(() => {
+    //   localStorage.setItem('dark', JSON.stringify(darkMode));
+    // }, [darkMode]);
     
-    function getInitialMode() {
-      const isReturningUser = 'dark' in localStorage;
-      const savedMode = JSON.parse(localStorage.getItem('dark'));
-      const userPrefersDark = getPrefColorScheme();
-      // if mode was saved -> dark / light
-      if(isReturningUser) {
-        return savedMode;
-        // if preferred color scheme is dark -> dark
-      } else if (userPrefersDark) {
-        return true;
-        // otherwise -> light
-      } else {
-        return false;
-      }
-    }
+    // function getInitialMode() {
+    //   const isReturningUser = 'dark' in localStorage;
+    //   const savedMode = JSON.parse(localStorage.getItem('dark'));
+    //   const userPrefersDark = getPrefColorScheme();
+    //   // if mode was saved -> dark / light
+    //   if(isReturningUser) {
+    //     return savedMode;
+    //     // if preferred color scheme is dark -> dark
+    //   } else if (userPrefersDark) {
+    //     return true;
+    //     // otherwise -> light
+    //   } else {
+    //     return false;
+    //   }
+    // }
   
-    function getPrefColorScheme() {
-      if(!window.matchMedia) return;
-      return window.matchMedia("(prefers-color-scheme: dark)").matches;
-    }
+    // function getPrefColorScheme() {
+    //   if(!window.matchMedia) return;
+    //   return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    // }
 
     return (
         <Navbar collapseOnSelect expand="lg">

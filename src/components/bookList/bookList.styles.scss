@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .book-list-component{
     display: flex;
     flex-direction: column;
@@ -22,6 +24,11 @@
 
 .book-list-item {
     line-height: 36px;
+}
+
+.book-list-item-title {
+    display: inline-block;
+    color: $light-violet-accent;
 }
 
 @media only screen and (max-width: 815px) {

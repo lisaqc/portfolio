@@ -22,7 +22,7 @@ const BookList = () => {
         <table className = 'book-list-table'>
             <ul className = 'book-list'>
             {books.map((value, index) => {
-                return <li className = "book-list-item" key={index}><b>{value.title}</b> - {value.author}</li>
+                return <li className = "book-list-item" key={index}><b><div className = "book-list-item-title">{value.title}</div></b> - {value.author}</li>
             })}
             </ul>
         </table>
