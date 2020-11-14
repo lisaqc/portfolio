@@ -1,0 +1,25 @@
+.book-list-component{
+    display: flex;
+    flex-direction: column;
+    margin: 200px 100px 0 100px;
+}
+
+.book-list-title {
+    font-weight: 700;
+    margin-bottom: 36px;
+    font-size: 30px;
+    line-height: 100%;
+    font-family: Montserrat, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.book-list-table {
+    font-family: Be Vietnam;
+}
+
+.book-list {
+    list-style-type: none; 
+}
+
+.book-list-item {
+    line-height: 36px;
+}

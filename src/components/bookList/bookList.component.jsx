@@ -19,11 +19,13 @@ const BookList = () => {
     return (
     <div className='book-list-component'>
     <div className='book-list-title'> Recent Reads...</div>
-        <ul>
-        {books.map((value, index) => {
-            return <li className = "book-item" key={index}>{value.title} - {value.author}</li>
-        })}
-        </ul>
+        <table className = 'book-list-table'>
+            <ul className = 'book-list'>
+            {books.map((value, index) => {
+                return <li className = "book-list-item" key={index}><b>{value.title}</b> - {value.author}</li>
+            })}
+            </ul>
+        </table>
     </div>
     );  
 };
