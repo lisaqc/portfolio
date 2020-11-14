@@ -1,0 +1,33 @@
+.about-list-item-component{
+    display: flex;
+    flex-direction: row;
+    margin: 0 24px;
+    margin-bottom: 56px;
+}
+.about-list-image {
+    min-height: 100px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-list-item-image {
+    height: 90px;
+    width: 120px; 
+}
+
+.about-list-title {
+    font: bold 16px Be Vietnam;
+    margin-bottom: 8px;
+}
+
+.about-list-subtitle {
+    font: 14px Be Vietnam;
+    margin-bottom: 16px;
+    min-height: 1em;
+}
+
+.about-list-body {
+    font: 14px Be Vietnam;
+    line-height: 1.75em;
+}

@@ -1,28 +1,21 @@
 
 import React from 'react';
-import './aboutList.styles.scss';
-import Button from 'react-bootstrap/Button';
+import './aboutMe.styles.scss';
+import Work from '../../assets/Work.svg';
 
-const AboutListComponent = (props) => {
+const AboutMe = (props) => {
     return (
-        <div className = 'about-list-item-component'>
-            <div className = 'about-list-image'>
-                <img src={props.image} className="about-list-item-image" alt="about-list-item-image" />
+        <div className = 'about-me-component'>
+            <div className = 'about-me-image'>
+                <img src={Work} className="about-me-image" alt="about-me-image" />
             </div>
-            <div className = 'about-list-description'>
-            <div className = 'about-list-title'>{props.title}</div>
-                <div className = 'about-list-subtitle'>{props.subtitle ? props.subtitle : ''}</div>
-                <div className = 'about-list-body'>{props.body}</div>
-                {props.actionText && props.actionLink  &&
-                    <Button variant="light" className = 'summary-connect'  href={props.actionLink} rel="noopener noreferrer" target="_blank">
-                        <div className = 'about-list-action'>
-                            {props.actionText}
-                        </div>
-                    </Button>
-                }
+            <div className = 'about-me-description'>
+                <div className = 'about-me-body'>
+                    Currently, I worked at <b>American Express</b> as a <b>Product Marketing Manager</b> focused on the Early Engagement portion ofthe customer journey. My goal is to make the onboarding process as smooth as possible for a new cardmember in all the platforms they may use. This includes the multiple digital activation journeys, as well as the onboarding marketing curriculum.
+                </div>
             </div>
         </div>
     );
 };
 
-export default AboutListComponent;
+export default AboutMe;

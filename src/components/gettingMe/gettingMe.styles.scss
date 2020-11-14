@@ -1,0 +1,32 @@
+.getting-me-component{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 100px 0 100px;
+}
+
+.getting-me-title {
+    font-family: Be Vietnam;
+    font-weight: 700;
+    line-height: 3rem;
+    border-bottom: solid 2px black;
+}
+
+.getting-me-list {
+    padding: 56px 0;
+    padding-right: 100px;
+}
+
+.getting-me-hobbies {
+    display: flex;
+    flex-direction: row;
+    font: bold 16px Be Vietnam;
+    margin: 0 24px;
+    margin-bottom: 56px;
+}
+
+.getting-me-first {
+    min-height: 100px;
+    min-width: 300px;
+    justify-content: center;
+    display: flex;
+}

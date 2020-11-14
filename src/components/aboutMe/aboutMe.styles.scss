@@ -1,0 +1,22 @@
+.about-me-component{
+    display: flex;
+    flex-direction: row;
+    margin: 200px 100px 0 100px;
+    justify-content: space-between;
+}
+.about-me-image {
+    width: 350px;
+    height: 140px;
+}
+
+.about-me-description {
+    margin-left: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about-me-body {
+    font-size: 16px;
+    font-family: Be Vietnam;
+}
