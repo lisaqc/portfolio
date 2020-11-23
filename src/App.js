@@ -7,7 +7,7 @@ import "react-toggle/style.css"
 import Landing from "./pages/landing/landing.page";
 import About from "./pages/about/about.page";
 import Projects from "./pages/projects/projects.page";
-import SingleBlog from "./pages/singleBlog/singleBlog.page";
+// import SingleBlog from "./pages/singleBlog/singleBlog.page";
 import Books from "./pages/books/books.page";
 
 class App extends React.Component {
@@ -21,7 +21,7 @@ class App extends React.Component {
             <Route exact path="/resume/" render={() => {window.location.href="/LisaChen_Resume.pdf"}} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
-            <Route path="/:id" component={SingleBlog} />
+            {/* <Route path="/:id" component={SingleBlog} /> */}
             <Route path="/books" component={Books} />
             <Route path="/" component={Landing} />
           </Switch>
