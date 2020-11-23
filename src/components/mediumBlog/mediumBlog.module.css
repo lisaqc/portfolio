@@ -28,6 +28,11 @@
     margin-bottom: 4.5rem!important;
 }
 
+.grid:hover{
+    transition: transform ease-in 0.2s;
+    transform: scale(1.02)
+}
+
 .grid:nth-child(3n+1) {
     clear: both;
 }
