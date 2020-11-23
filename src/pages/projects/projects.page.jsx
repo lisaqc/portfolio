@@ -3,6 +3,7 @@ import React from 'react';
 import './projects.styles.scss';
 import Navbar from '../../components/navbar/navbar.component'
 import Footer from '../../components/footer/footer.component';
+import Medium from '../../components/medium/medium.component';
 
 
 const Projects = () => {
@@ -11,9 +12,7 @@ const Projects = () => {
       <Navbar/>
         <div className = 'projects-header'>
           <div className = 'projects-info'>
-            <div className = 'coming-soon'>
-              Coming Soon
-            </div>
+          <Medium/>
           </div>
         </div>
       <Footer showButton = {true}/>

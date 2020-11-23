@@ -1,0 +1,15 @@
+.medium-blog{
+    display: flex;
+    flex-direction: row;
+    margin: 200px 100px 0 100px;
+}
+
+@media only screen and (max-width: 815px) {
+
+    .medium-blog{
+        display: flex;
+        flex-direction: column;
+        margin: 200px 36px 0 36px;
+    }
+
+}
