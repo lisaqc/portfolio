@@ -21,7 +21,7 @@ export class Blog extends Component {
     };
   }
   mediumURL =
-    "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@lisaqchen";
+    "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@lisaqc";
 
   componentDidMount() {
     Axios.get(this.mediumURL)
